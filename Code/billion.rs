@@ -1,9 +1,9 @@
 fn main() {
     
-    let mut index = 1;
+    let mut index = 0;
     let count = 1_000_000_000;
 
-    while index <= count {
+    while index < count {
         index += 1;
     }
 }
