@@ -2,7 +2,7 @@
 
 ## Apple Mac mini - Apple M4 / 24GB
 
-|Language|Version|file|Time|
+|Language|Version|File|Time|
 |-|-|-|-|
 |[gcc](https://zh.wikipedia.org/zh-tw/GCC)|v16.0.0|billion.c|0.31s|
 |[g++](https://zh.wikipedia.org/zh-tw/GCC)|v16.0.0|billion.cpp|0.28s|
@@ -46,6 +46,11 @@ time go run billion.go
 #### swift
 ```swift
 time swift billion.swift
+```
+
+#### java
+```swift
+time java billion.java
 ```
 
 #### rust
